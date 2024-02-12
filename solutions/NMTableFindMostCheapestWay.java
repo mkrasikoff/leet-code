@@ -1,4 +1,4 @@
-public class FindMostCheapestWayNMTable {
+public class NMTableFindMostCheapestWay {
 
     public static void main(String[] args) {
         // table size

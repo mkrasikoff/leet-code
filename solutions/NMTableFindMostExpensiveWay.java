@@ -1,4 +1,4 @@
-public class FindMostExpensiveWayNMTable {
+public class NMTableFindMostExpensiveWay {
 
     public static void main(String[] args) {
         int N = 5;
@@ -15,6 +15,15 @@ public class FindMostExpensiveWayNMTable {
         printCalculatedMaxPriceWeightAndWay(N, M, table);
     }
 
+    /**
+     * Time complexity - O(N * M)
+     * Space complexity - O(N * M)
+     *
+     * @param N - rows number
+     * @param M - columns number
+     * @param table - table with numbers and N * M size
+     * @return
+     */
     public static int printCalculatedMaxPriceWeightAndWay(int N, int M, int[][] table) {
 
         // Results
